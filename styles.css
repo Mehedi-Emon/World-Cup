@@ -1,0 +1,42 @@
+body {
+    font-family: 'Jost', sans-serif;
+
+}
+
+/* 1st page -- */
+
+.header-details {
+    color: white;
+}
+
+.small-text {
+    font-size: 15px;
+}
+
+.headline {
+    font-size: 40px;
+}
+
+.text-button {
+    background-color: skyblue;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.first-part {
+    margin-left: 70px;
+    margin-bottom: 20px;
+
+}
+
+.first-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
