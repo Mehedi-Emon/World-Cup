@@ -23,6 +23,11 @@ body {
     padding: 15px 30px 15px 30px;
     border: 0;
     border-radius: 5px;
+
+}
+
+.text-button:hover {
+    color: rgb(0, 2, 3);
 }
 
 .first-part {
@@ -39,4 +44,78 @@ body {
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+
+/* ------------lowwer part------------- */
+.lower-part {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.video-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+/* lower part left side */
+.left-side {
+    width: 30%;
+}
+
+.button-area {
+    border-radius: 20px;
+    height: 40%;
+    background-color: black;
+    width: 80%;
+    margin-right: 30px;
+}
+
+
+.btn {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    width: 250px;
+    margin: 10px;
+    height: 80px;
+}
+
+.btn-red {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    background-color: skyblue;
+    border-radius: 8px;
+    width: 250px;
+    margin: 10px;
+    height: 80px;
+}
+
+/* lowwer part rigt side--- */
+
+
+.right-side {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+
+}
+
+.player img {
+    width: 100%;
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
