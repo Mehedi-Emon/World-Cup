@@ -119,3 +119,31 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+
+/* last part--- */
+
+
+.footer-black {
+    height: 300px;
+    color: white;
+    background-color: black;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.ending {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+hr {
+    color: rgb(189, 189, 180);
+}
+
+
+/* media queries --- */
+
+/* mobile devices --- */
